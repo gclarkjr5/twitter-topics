@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "twitter-trending"
+version = "0.1.0"
+description = ""
+authors = ["Gary Clark <gclark@xccelerated.io>"]
+readme = "README.md"
+packages = [{include = "twitter_trending"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.15.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
